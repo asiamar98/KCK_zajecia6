@@ -1,0 +1,94 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Times New Roman, Georgia, serif;
+    background-color: #faffa8;
+}
+
+/* Style the header */
+header {
+    background-color: #5c7c8a;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #d7dae0;
+    margin-bottom: 5px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 19%;
+    margin-right: 0.25%;
+    height: 590px;
+    background: #ccc;
+    padding: 20px;
+    background-color: #a3c2c2;
+    text-align: center;
+    background-image: url('http://s2.ifotos.pl/img/duszkipng_qwhhsaa.png');
+}
+
+/* Zmienia wygląd listy w menu */
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+/* link w stanie "spoczynku" ma być bielutki z podkreśleniem */
+a:link {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+ 
+/* link odwiedzony ma być szary */
+a:visited {
+    color: #CCCCCC;
+}
+ 
+/* link nad którym jest kursor myszy ma być śnieżno-biały z księżniczkowym tłem */
+a:hover {
+    color: white;
+    background-color: pink;
+}
+ 
+/* link który jest klikany ma być pomarańczowy bez tła */
+a:active {
+    color: orange;
+    background-color: transparent;
+}
+
+article {
+    float: right;
+    text-align: justify;
+    padding: 20px;
+    width: 80%;
+    border: 10px dotted #b3cccc;
+    margin-left: 0.25%;
+    margin-right: 0.5%;
+    margin-bottom: 6px;
+    font-size: 18px;
+    background-color: #ffffcc;
+}
+
+img {
+    height: 400px;
+    clear: left;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Zmień wygląd stopki */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #5c7c8a;
+    margin-top: 10px;
+}

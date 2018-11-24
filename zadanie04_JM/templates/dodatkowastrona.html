@@ -1,0 +1,51 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+     <title>O systemach BCI</title>
+     <meta charset="UTF-8">
+
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+</head>
+
+<body>
+  <nav>
+
+  </nav>
+
+  <article>
+<p><h3>Wady i zalety omawianych metod</h3></p>
+
+<center><p><table border="5">
+
+<tr><td></td><th>Zalety</th><th>Wady</th></tr>
+<tr><th>SSVEP</th><td><center>może mieć wysoką szybkość
+transferu informacji</center></td><td><center>wymaga koncentracji uwagi, <br>może powodować zmęczenie</center></td></tr>
+<tr><th>P300</th><td><center>może być stosowane bez wcześniejszego treningu</center></td><td><center>wymaga większej ilości powtórzeń, <br>co spowalnia szybkość transferu informacji</center></td></tr>
+<tr><th>ERD/ERS</th><td><center>moment generacji informacji nie jest określany <br>przez system lecz wewnętrznie przez użytkownika</center></td><td><center>wymaga wcześniejszego treningu</center></td></tr>
+</table></p></center>
+
+  </article>
+
+  <article>
+  <h3>Standardowy fragment Lorem Ipsum, używany od XV w.</h3>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+   </article>
+
+<footer>
+  <p><strong>Tekst strony został zaczerpnięty z: brain.fuw.edu.pl oraz pl.lipsum.com</strong></p>
+</footer>
+
+
+</body>
+</html>
+{% endblock content %}

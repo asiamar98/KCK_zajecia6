@@ -1,0 +1,46 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+     <title>O systemach BCI</title>
+     <meta charset="UTF-8">
+
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+</head>
+
+<body>
+
+  <nav>
+
+  </nav>
+
+  <article>
+    <h1>Podstawowe informacje</h1>
+    <p>
+<strong>Interfejs mózg-komputer</strong> (ang. <em>Brain-Computer Interface, BCI</em>) to system, w którym polecenia lub komendy przekazywane są do komputera nie za pomocą mięśni, lecz za pomocą sygnałów generowanych w mózgu. Termin „BCI” pojawił się w literaturze po raz pierwszy w artykule opisującym potencjalne zastosowania tego rodzaju komunikacji do sterowania protezami lub statkami kosmicznymi (Vidal, 1973).
+<br>Istnieje wiele metod służących do monitorowania pracy mózgu. Obecnie jednak tylko EEG (elektroencefalografia), mające krótką stałą czasową i będące metodą nieinwazyjną i stosunkowo tanią, jest szeroko stosowane w praktyce jako kanał komunikacji w systemach BCI. </p>
+
+  </article>
+
+  <article>
+  <h3>Czym jest Lorem Ipsum?</h3>
+<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker</p>
+   </article>
+
+<footer>
+  <p><strong>Tekst strony został zaczerpnięty z: brain.fuw.edu.pl oraz pl.lipsum.com</strong></p>
+</footer>
+
+</body>
+</html>
+
+{% endblock content %}
